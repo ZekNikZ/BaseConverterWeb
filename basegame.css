@@ -9,3 +9,61 @@
 .main-menu-btn-group > .game-btn {
     text-align: center;
 }
+
+.question {
+    text-align: center;
+    font-size: 40pt !important;
+}
+
+.score {
+    text-align: center;
+    font-size: 25pt !important
+}
+
+.qnum {
+    font-weight: bold;
+}
+
+.qbase {
+    font-weight: 350;
+}
+
+.qtarget {
+    font-weight: 350;
+}
+
+.input {
+    text-align: center;
+    font-size: 45pt !important;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+h2 {
+    text-align: center;
+}
+
+.gameover {
+    text-align: center;
+    font-size: 50pt !important
+}
+
+.result {
+    text-align: center;
+    font-size: 30pt !important;
+}
+
+.settings {
+    text-align: center;
+    font-size: 20pt !important;
+}
+
+.bold {
+    font-weight: bold;
+}
