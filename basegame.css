@@ -1,0 +1,11 @@
+﻿.title {
+    text-align: center;
+}
+
+.main-menu-btn-group {
+    margin: 0 auto;
+}
+
+.main-menu-btn-group > .game-btn {
+    text-align: center;
+}
