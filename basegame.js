@@ -8,8 +8,8 @@ var answer;
 var base;
 var target;
 
-var bases = [2, 8, 10, 16];
-var baseNames = ['binary', 'octal', 'decimal', 'hexadecimal'];
+var bases = [2, 10, 16];
+var baseNames = ['binary', 'decimal', 'hexadecimal'];
 
 var mode;
 
@@ -141,8 +141,8 @@ function handleKeyPress(char) {
 }
 
 function newQuestion() {
-    base = randInt(0, 4);
-    target = randInt(0, 4);
+    base = randInt(0, baseNames.length);
+    target = randInt(0, baseNames.length);
     if (base == target) target = (target + 1) % bases.length;
     $('.qbase').text(baseNames[base]);
     $('.qtarget').text(baseNames[target]);
